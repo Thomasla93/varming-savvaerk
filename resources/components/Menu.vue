@@ -13,7 +13,7 @@
         </div>
         <div class="navbar-menu" v-bind:class="{'is-active':mobileShow}">
             <div class="navbar-end">
-                <router-link v-for="(item, key) in menu" :key="key" :to="item.link" class="navbar-item" exact>{{ item.title }}</router-link>
+                <a v-for="(item, key) in menu" :key="key" :href="item.link" class="navbar-item" exact>{{ item.title }}</a>
             </div>
         </div>
     </nav>
@@ -27,7 +27,7 @@
                 menu: [
                     {
                         title: 'Velkommen',
-                        link: '/',
+                        link: '#',
                     },
                     {
                         title: 'Produkter',
