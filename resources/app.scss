@@ -1,0 +1,65 @@
+@import '../node_modules/bulma/bulma';
+
+.bg-primary {
+    background-color: #00d1b2;
+    color: #fff;
+}
+
+.hero-image {
+    background-image: url('images/hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-image {
+    background-image: url('images/contact-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+}
+
+.map {
+    height: 300px;
+
+    iframe {
+        height: inherit;
+    }
+}
+
+#projects .card:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.section:not(:last-child) {
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.section {
+    padding: 4rem 1.5rem;
+}
+
+.image .hover {
+    display: none;
+    background-color: rgba(0, 209, 178, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.image:hover .hover {
+    display: block;
+
+}
