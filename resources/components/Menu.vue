@@ -13,7 +13,7 @@
             <div class="navbar-end">
                 <template v-for="(item, key) in items">
                     <div v-if="typeof item.sub !== 'undefined'" class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link is-active">{{ item.title }}</a>
+                        <a class="navbar-link is-active" :href="item.link">{{ item.title }}</a>
                         <div class="navbar-dropdown">
                             <a v-for="(subItem, subKey) in item.sub" :key="subKey" class="navbar-item" :href="subItem.link">{{ subItem.title }}</a>
                         </div>

@@ -29311,7 +29311,10 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     return [(typeof item.sub !== 'undefined') ? _c('div', {
       staticClass: "navbar-item has-dropdown is-hoverable"
     }, [_c('a', {
-      staticClass: "navbar-link is-active"
+      staticClass: "navbar-link is-active",
+      attrs: {
+        "href": item.link
+      }
     }, [_vm._v(_vm._s(item.title))]), _vm._v(" "), _c('div', {
       staticClass: "navbar-dropdown"
     }, _vm._l((item.sub), function(subItem, subKey) {
