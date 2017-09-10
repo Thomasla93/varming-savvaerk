@@ -1,10 +1,10 @@
 <template>
-    <section class="section is-primary" id="projects">
+    <section class="section is-primary" :id="section.id">
         <div class="container">
-            <h1 class="title has-text-centered">Projekter</h1>
+            <h1 class="title has-text-centered">{{ section.title }}</h1>
             <div class="columns is-centered">
                 <div class="column is-10">
-                    <div class="card" v-for="project in projects">
+                    <div class="card" v-for="project in section.items">
                         <div class="columns is-marginless">
                             <div class="column is-paddingless">
                                 <div class="image is-4by3">
@@ -27,16 +27,6 @@
 
 <script>
     export default {
-        data() {
-            return {
-                projects: [],
-            };
-        },
-
-        created() {
-            axios.get('projects.json').then(response => {
-                this.projects = response.data;
-            });
-        }
+        props: ['section'],
     }
 </script>

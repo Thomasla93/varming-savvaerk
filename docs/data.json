@@ -1,0 +1,179 @@
+{
+    "menu": [
+        {
+            "title": "Velkommen",
+            "link": "#"
+        },
+        {
+            "title": "Produkter",
+            "link": "#products"
+        },
+        {
+            "title": "Projekter",
+            "link": "#projects"
+        },
+        {
+            "title": "Om savværket",
+            "link": "",
+            "sub": [
+                {
+                    "title": "Historie",
+                    "link": "#history"
+                },
+                {
+                    "title": "Om os",
+                    "link": "#about"
+                }
+            ]
+        },
+        {
+            "title": "Maskinkapacitet",
+            "link": "#engine"
+        },
+        {
+            "title": "Kontakt",
+            "link": "#contact"
+        }
+    ],
+    "sections": [
+        {
+            "id": "hero",
+            "type": "section-hero",
+            "image": "images/hero.jpg"
+        },
+        {
+            "id": "products",
+            "title": "Produkter",
+            "type": "section-products",
+            "categories": [
+                "Tømmer",
+                "Planker",
+                "Hegn"
+            ],
+            "items": [
+                {
+                    "title": "Lorem Ipsum Dolor",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, neque!",
+                    "image": "https://scontent-amt2-1.xx.fbcdn.net/v/t31.0-8/18768189_1481072651967794_7243102589266991007_o.jpg?oh=c2df498d3de044318c7becfe5aa4ca41&oe=5A5F5ACD",
+                    "categories": [
+                        "Tømmer"
+                    ]
+                },
+                {
+                    "title": "Lorem Ipsum Dolor",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi totam rem incidunt, ullam perspiciatis unde fugit voluptatem sequi nam asperiores.",
+                    "image": "https://scontent-amt2-1.xx.fbcdn.net/v/t31.0-8/18768189_1481072651967794_7243102589266991007_o.jpg?oh=c2df498d3de044318c7becfe5aa4ca41&oe=5A5F5ACD",
+                    "categories": []
+                },
+                {
+                    "title": "Lorem Ipsum Dolor",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam placeat doloribus delectus atque deserunt modi earum quis perferendis asperiores ducimus ad corporis fugit et quibusdam dolore, qui sit maxime necessitatibus.",
+                    "image": "https://scontent-amt2-1.xx.fbcdn.net/v/t31.0-8/18768189_1481072651967794_7243102589266991007_o.jpg?oh=c2df498d3de044318c7becfe5aa4ca41&oe=5A5F5ACD",
+                    "categories": [
+                        "Hegn",
+                        "Tømmer"
+                    ]
+                },
+                {
+                    "title": "Lorem Ipsum Dolor",
+                    "description": "Lorem ipsum dolor sit amet.",
+                    "image": "https://scontent-amt2-1.xx.fbcdn.net/v/t31.0-8/18768189_1481072651967794_7243102589266991007_o.jpg?oh=c2df498d3de044318c7becfe5aa4ca41&oe=5A5F5ACD",
+                    "categories": []
+                },
+                {
+                    "title": "Lorem Ipsum Dolor",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, dignissimos voluptates porro. Perferendis ab labore sit quos, voluptatum recusandae, non magni, eos iste aut autem veritatis voluptatibus doloremque at id unde, sapiente debitis molestiae nesciunt. Eos distinctio, suscipit alias incidunt.",
+                    "image": "https://scontent-amt2-1.xx.fbcdn.net/v/t31.0-8/18768189_1481072651967794_7243102589266991007_o.jpg?oh=c2df498d3de044318c7becfe5aa4ca41&oe=5A5F5ACD",
+                    "categories": [
+                        "Hegn"
+                    ]
+                },
+                {
+                    "title": "Lorem Ipsum Dolor",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cupiditate, eius error ex voluptate repellendus architecto consectetur rem sunt! Molestias fuga iste, debitis aspernatur deleniti omnis similique reiciendis tempora voluptatibus id beatae dignissimos saepe! Veniam quidem voluptas molestias, aut sint labore, earum, maiores pariatur aliquid minus, doloribus nisi impedit eos!",
+                    "image": "https://scontent-amt2-1.xx.fbcdn.net/v/t31.0-8/18768189_1481072651967794_7243102589266991007_o.jpg?oh=c2df498d3de044318c7becfe5aa4ca41&oe=5A5F5ACD",
+                    "categories": [
+                        "Hegn"
+                    ]
+                },
+                {
+                    "title": "Lorem Ipsum Dolor",
+                    "description": null,
+                    "image": "https://scontent-amt2-1.xx.fbcdn.net/v/t31.0-8/18768189_1481072651967794_7243102589266991007_o.jpg?oh=c2df498d3de044318c7becfe5aa4ca41&oe=5A5F5ACD",
+                    "categories": [
+                        "Planker"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "projects",
+            "title": "Projekter",
+            "type": "section-projects",
+            "items": [
+                {
+                    "title": "Project 1",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum blanditiis enim ex, minima earum id architecto eum est excepturi rem, eius numquam reiciendis, impedit deserunt quis corporis molestias tempora assumenda.",
+                    "image": "https://scontent-amt2-1.xx.fbcdn.net/v/t31.0-8/18768189_1481072651967794_7243102589266991007_o.jpg?oh=c2df498d3de044318c7becfe5aa4ca41&oe=5A5F5ACD"
+                },
+                {
+                    "title": "Project 2",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor debitis veritatis neque deleniti ipsa molestiae voluptatibus aliquam in alias. Harum minus delectus dolore quidem dicta facilis repellendus officiis illo? Quisquam?",
+                    "image": "https://scontent-amt2-1.xx.fbcdn.net/v/t31.0-8/18768189_1481072651967794_7243102589266991007_o.jpg?oh=c2df498d3de044318c7becfe5aa4ca41&oe=5A5F5ACD"
+                },
+                {
+                    "title": "Project 3",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, blanditiis cumque quibusdam aliquid nobis esse velit optio illo, facere. Neque porro vel quasi quibusdam ex ut dolorum natus officia, molestias!",
+                    "image": "https://scontent-amt2-1.xx.fbcdn.net/v/t31.0-8/18768189_1481072651967794_7243102589266991007_o.jpg?oh=c2df498d3de044318c7becfe5aa4ca41&oe=5A5F5ACD"
+                },
+                {
+                    "title": "Project 4",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, explicabo sit dolorem molestiae perspiciatis fugiat harum tenetur perferendis repudiandae rerum nostrum cumque soluta hic sapiente optio doloremque suscipit quibusdam? Temporibus.",
+                    "image": "https://scontent-amt2-1.xx.fbcdn.net/v/t31.0-8/18768189_1481072651967794_7243102589266991007_o.jpg?oh=c2df498d3de044318c7becfe5aa4ca41&oe=5A5F5ACD"
+                }
+            ]
+        },
+        {
+            "id": "history",
+            "type": "section-history",
+            "title": "Historie",
+            "image": "images/history.jpg",
+            "content": "<p>Varming Savværk blev stiftet helt tilbage i 1964. Hvor det var min morfar Bent Johansen der startede helt fra bunden uden noget som helst. I løbet af årene blev det større og større og i 1968 byggende han selve savværket præcis som den står i dag.</p><p>Igennem 70’erne og 80’erne var der fart på savværket, men så trappende Bent ned og sønnen Stig var lagt i stille til at overtage det, men det gik desværre den anden vej, hvor Stig ikke lagde store kræfter i at drive savværket, men mere i tømrer faget. Så i 2002 blev savværket solgt til Leif Schmidt.</p><p>Leif har siden købet haft det som en hobbyvirksomhed, ved siden af sit arbejde, og da han blev 60 år i 2016 ville/kunne han ikke mere.</p><p>Så kom jeg ind i billedet, som tredje generation, hvor jeg overtog savværket d.1-1-2017 fra Leif.</p><p>Leif bor stadig i dag i stuehuset som tilhører savværket, hvor han følger med på sidelinjen.</p><ul><li>1964 - 2002 Bent Johansen</li><li>2002 - 2016 Leif Schmidt</li><li>2017 - Thomas Lautrup Andersen</li></ul>"
+        },
+        {
+            "id": "about",
+            "type": "section-about",
+            "title": "Om os",
+            "content": "<p><strong>Thomas Lautrup Andersen</strong></p><p>Varming Savværk er et gammelt savværk, som ligger nær Ribe. Vi saver alle form for træ op både hvis man selv har nogen træstammer, eller man skal bruge noget træ.</p>"
+        },
+        {
+            "id": "engine",
+            "type": "section-products",
+            "title": "Maskinkapacitet",
+            "categories": [
+                "SuperSav"
+            ],
+            "items": [
+                {
+                    "title": "Lorem Ipsum Dolor",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, neque!",
+                    "image": "https://scontent-amt2-1.xx.fbcdn.net/v/t31.0-8/18768189_1481072651967794_7243102589266991007_o.jpg?oh=c2df498d3de044318c7becfe5aa4ca41&oe=5A5F5ACD",
+                    "categories": [
+                        "SuperSav"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "contact",
+            "type": "section-contact",
+            "title": "Varming Savværk",
+            "image": "images/contact-bg.jpg",
+            "address": "c/o Thomas Andersen<br>Varming Vesterby 2D<br>6760 Ribe",
+            "phone": "29 66 98 78",
+            "email": "varming-savvaerk@outlook.dk",
+            "cvr": "38217674",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2270.3919211220045!2d8.854091316033768!3d55.31624198043886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464b483a5e36f557%3A0xe5eb8020d80f6c8e!2sVarming+Vesterby+2D%2C+6760+Ribe!5e0!3m2!1sen!2sdk!4v1503754790083"
+        }
+    ]
+}

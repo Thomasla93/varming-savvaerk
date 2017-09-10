@@ -5,15 +5,7 @@
     color: #fff;
 }
 
-.hero-image {
-    background-image: url('images/hero.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.contact-image {
-    background-image: url('images/contact-bg.jpg');
+.bg-image {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -50,7 +42,7 @@
 
 .image .hover {
     display: none;
-    background-color: rgba(0, 209, 178, 0.6);
+    background-color: rgba(117, 67, 40, 0.7);
     position: absolute;
     top: 0;
     left: 0;

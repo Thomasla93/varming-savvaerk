@@ -3,14 +3,27 @@ window.axios = require('axios');
 window.Vue = require('vue');
 
 Vue.config.productionTip = false;
-Vue.component('header-menu', require('./components/Menu'));
-Vue.component('section-hero', require('./components/Hero'));
-Vue.component('section-products', require('./components/Products'));
-Vue.component('section-projects', require('./components/Projects'));
-Vue.component('section-history', require('./components/History'));
-Vue.component('section-contact', require('./components/Contact'));
-Vue.component('section-about', require('./components/About'));
 
-new Vue({
+const app = new Vue({
     el: '#app',
+
+    data: {
+        content: null,
+    },
+
+    created() {
+        axios.get('data.json').then(response => {
+            this.content = response.data;
+        });
+    },
+
+    components: {
+        'header-menu':      require('./components/Menu'),
+        'section-hero':     require('./components/Hero'),
+        'section-products': require('./components/Products'),
+        'section-projects': require('./components/Projects'),
+        'section-history':  require('./components/History'),
+        'section-contact':  require('./components/Contact'),
+        'section-about':    require('./components/About'),
+    }
 });

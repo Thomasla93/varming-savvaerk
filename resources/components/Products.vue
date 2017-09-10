@@ -1,11 +1,11 @@
 <template>
-    <section class="section" id="products">
+    <section class="section" :id="section.id">
         <div class="container">
-            <h1 class="title has-text-centered">Produkter</h1>
+            <h1 class="title has-text-centered">{{ section.title }}</h1>
             <nav class="breadcrumb is-centered">
                 <ul>
                     <li><a href="#" v-on:click.prevent="setFilter(null)">All</a></li>
-                    <li v-for="category in categories"><a href="#" v-on:click.prevent="setFilter(category)">{{ category }}</a></li>
+                    <li v-for="category in section.categories" :class="{'is-active':filter == category}"><a href="#" v-on:click.prevent="setFilter(category)">{{ category }}</a></li>
                 </ul>
             </nav>
             <div class="columns is-multiline">
@@ -27,31 +27,24 @@
 
 <script>
     export default {
+        props: ['section'],
+
         data() {
             return {
                 filter: null,
-                categories: [],
-                products: [],
             };
         },
 
         computed: {
             filteredProducts() {
                 let self = this;
-                return _.filter(this.products, function(item){
+                return _.filter(this.section.items, function(item){
                     if (self.filter == null) {
                         return true;
                     }
                     return item.categories.indexOf(self.filter) > -1;
                 });
             },
-        },
-
-        created() {
-            axios.get('products.json').then(response => {
-                this.categories =  response.data.categories;
-                this.products = response.data.items;
-            });
         },
 
         methods: {

@@ -12,14 +12,9 @@
 </head>
 <body>
     <div id="app">
-        <header-menu></header-menu>
-        <main>
-            <section-hero></section-hero>
-            <section-products></section-products>
-            <section-projects></section-projects>
-            <section-history></section-history>
-            <section-about></section-about>
-            <section-contact></section-contact>
+        <header-menu v-if="content && content.menu" :items="content.menu"></header-menu>
+        <main v-if="content && content.sections">
+            <component v-for="(section, key) in content.sections" :key="key" :is="section.type" :section="section"></component>
         </main>
     </div>
     <script src="app.js"></script>
