@@ -39,7 +39,8 @@
         {
             "id": "hero",
             "type": "section-hero",
-            "image": "images/hero.jpg"
+            "image": "images/hero.jpg",
+            "logo": "images/logo-square.jpg"
         },
         {
             "id": "products",
